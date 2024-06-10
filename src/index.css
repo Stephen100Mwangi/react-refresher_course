@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#digital {
+    background-image: url('./public/timing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+.clock{
+    backdrop-filter: blur(50px);
+}
+#stopWatch{
+    background-image: url('./public/timing.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+}
+#displayTime{
+    padding: 40px;
+    backdrop-filter: blur(200px);
+}
